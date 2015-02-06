@@ -1,0 +1,145 @@
+/* typography */
+
+/*h1, h2, h3, .lead, p.h1 {
+  letter-spacing: -0.043em; word-spacing: 0.05em;
+}
+
+h1 {
+  color: deepskyblue;
+}
+
+h1, p.h1 {
+  font-family: "open_sansregular";
+}
+
+h2, h3, .lead {
+  font-family: "open_sanslight"; font-weight: 100;
+  color: #AAA; }
+
+h1, h2, h3 {
+  font-family: "source-sans-pro"; font-weight: 200;
+  letter-spacing: -0.025em; word-spacing: 0.05em; }
+
+h2, h3 {
+  font-family: "source-sans-pro"; }
+
+h1, p.h1 {
+  font-size: 64px; }
+
+h2 {
+  font-size: 49px; line-height: 58px; }
+
+h3 {
+  font-size: 34px; line-height: 54px; }
+*/
+/* global */
+
+ul {
+    /* margin-left: 0; */
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+.header {
+  background: #fff;
+}
+
+/* navigation */
+
+.primary-nav {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/*@media (min-width: 768px) {
+.lead {
+font-size: 50px;
+}*/
+
+.bx-wrapper {
+  /* z-index: 0;
+	margin-top: 75px !important; */
+}
+
+/* bx slider */
+
+ul.bxslider {
+padding: 0;
+}
+
+ul.bxslider li {
+    padding: 220px 0;
+}
+
+ul.bxslider li:first-child {
+background: url(../images/Linton_Background4.jpg) bottom right;
+background-attachment: fixed;
+color: white;
+}
+
+/*.bx-wrapper .bx-caption {
+  background: none !important;
+  width: 60% !important;
+  left: inherit;
+  padding: 50px 0;
+}*/
+
+.bx-wrapper .bx-caption {
+width: 90% !important;
+height: 60%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+overflow: auto;
+margin: auto;
+background: none !important;
+}
+
+.bx-wrapper .bx-viewport {
+  left: 0 !important;
+}
+
+ul.bxslider > li > img {opacity: 0.3;
+float: right;
+}
+
+.container {
+  padding: 1em 0  1.5em 0;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/*p.lead {
+    margin: 0 3em;
+font-size: 30px;
+padding: 0 7em; }*/
+
+.section_liseret {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.our-awards {
+  background: snow;
+}
+
+.help {
+  background: whitesmoke;
+}
